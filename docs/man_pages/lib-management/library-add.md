@@ -1,7 +1,7 @@
 library add
 ==========
 
-Usage | Syntax
+Usage | Synopsis
 ------|-------
 General | `$ tns library add <Platform> <Library path>`
 Android | `$ tns library add android <Library path>`

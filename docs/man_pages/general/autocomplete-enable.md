@@ -1,7 +1,7 @@
 autocomplete enable
 ==========
 
-Usage | Syntax
+Usage | Synopsis
 ------|-------
 General | `$ tns autocomplete enable`
 

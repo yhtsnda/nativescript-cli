@@ -1,7 +1,7 @@
 prepare
 ==========
 
-Usage | Syntax
+Usage | Synopsis
 ------|-------
 General | `$ tns prepare <Platform>`
 Android | `$ tns prepare android`

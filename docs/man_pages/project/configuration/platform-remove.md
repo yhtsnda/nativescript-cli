@@ -1,7 +1,7 @@
 platform remove
 ==========
 
-Usage | Syntax
+Usage | Synopsis
 ------|-------
 General | `$ tns platform remove <Platform>`
 Android | `$ tns platform remove android`

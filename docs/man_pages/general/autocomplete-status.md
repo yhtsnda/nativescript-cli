@@ -1,7 +1,7 @@
 autocomplete status
 ==========
 
-Usage | Syntax
+Usage | Synopsis
 ------|-------
 General | `$ tns autocomplete status`
 

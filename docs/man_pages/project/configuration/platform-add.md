@@ -1,7 +1,7 @@
 platform add
 ==========
 
-Usage | Syntax
+Usage | Synopsis
 ------|-------
 General | `$ tns platform add <Platform>[@<Version>] [--frameworkPath <File Path>] [--symlink]`
 Android latest version | `$ tns platform add android [--frameworkPath <File Path>] [--symlink]`

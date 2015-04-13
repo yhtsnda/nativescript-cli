@@ -1,7 +1,7 @@
 platform update
 ==========
 
-Usage | Syntax
+Usage | Synopsis
 ------|-------
 General |`$ tns platform update <Platform>[@<Version>]`
 Android |`$ tns platform update android[@<Version>]`
