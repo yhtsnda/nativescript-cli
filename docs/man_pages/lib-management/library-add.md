@@ -15,9 +15,9 @@ IMPORTANT: When adding frameworks, keep in mind the following behaviors.
 
 ### Attributes
 
-* `<Platform>` is the target mobile platform for which you want to build your project. You can set the following target platforms.
-    * `android` - Builds your project for Android.
-	<% if(isMacOS) { %>* `ios` - Builds your project for iOS.<% } %>
+* `<Platform>` is the target mobile platform for which you want to add a native library. You can set the following target platforms.
+    * `android` - Adds an Android native library.
+	<% if(isMacOS) { %>* `ios` - Adds an iOS native library.<% } %>
 * `<Library Path>` is the file path to a locally stored framework.<% if(isHtml) { %>  
     When you want to add an iOS framework, `<Library Path>` must be the complete file path to the `*.framework` file that you want to use.  
     When you want to add an Android framework, `<Library Path>` might be any of the following:  
