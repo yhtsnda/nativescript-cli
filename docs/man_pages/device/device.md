@@ -1,20 +1,30 @@
 device
 ==========
 
-Usage:
-    `$ tns device [<Command>]`
-Lists all recognized connected devices with serial number and index, grouped by platform. In this version of the NativeScript CLI,
-you can connect only iOS and Android devices.
+Usage | Synopsis
+------|---------
+General | `$ tns device [<Command>]`
+Lists all recognized connected devices with serial number and index, grouped by platform. 
 
-`<Command>` is a related command that extends the device command. You can run the following related commands:
+<% if(isConsole) { %>
+WARNING: You can work only with connected <% if(isWindows || isMacOS) { %>iOS and <% } %>Android devices.  
+<% if(isLinux) { %>WARNING: You cannot work with connected iOS devices on Linux systems. To view the complete help for this command, run `$ tns help device` <% } %> 
+<% } %>
+
+### Attributes
+`<Command>` extends the `device` command. You can set the following values for this attribute.
 * `android` - Lists all recognized connected Android physical and running Android virtual devices.
-* `ios` - Lists all recognized connected iOS devices.
+<% if(isWindows || isMacOS) { %>* `ios` - Lists all recognized connected iOS devices. <% } %> 
 * `log` - Opens the device log stream for a selected connected device.
-* `list-applications` - Lists the installed applications on all connected Android `<% if(isWindows || isMacOS) { %>or iOS <%}%>`devices.
-* `run` - Runs the selected application on a connected Android `<% if(isMacOS) { %>or iOS <%}%>`device.
-<% if(isHtml) { %> 
+* `list-applications` - Lists the installed applications on all connected Android <% if(isWindows || isMacOS) { %>or iOS <%}%>devices.
+* `run` - Runs the selected application on a connected Android <% if(isMacOS) { %>or iOS <%}%>device.
 
-#### Related Commands
+<% if(isHtml) { %> 
+### Command Limitations
+
+* You cannot work with connected iOS devices on Linux systems.
+
+### Related Commands
 
 Command | Description
 ----------|----------
