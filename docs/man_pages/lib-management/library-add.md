@@ -45,6 +45,10 @@ Before adding an Android framework, verify that the framework meets the followin
 * If an Android library project depends on other libraries, make sure that these libraries are accessible locally.
 * If a `*.jar` file depends on other libraries, make sure to add the dependent libraries by storing them in the same directory and passing this directory to `<Library Path>`. Otherwise, make sure to add each dependent library manually as well.
 
+### Command Limitations
+
+* You can work with native iOS libraries only on OS X systems.
+
 ### Related Commands
 
 Command | Description
