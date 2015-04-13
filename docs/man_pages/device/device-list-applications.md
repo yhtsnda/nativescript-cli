@@ -9,7 +9,6 @@ Lists the installed applications on all connected Android <% if(isWindows || isM
 
 <% if(isConsole) { %>
 WARNING: You can work only with connected <% if(isWindows || isMacOS) { %>iOS and <% } %>Android devices.  
-<% if(isLinux) { %>WARNING: You cannot work with connected iOS devices on Linux systems. To view the complete help for this command, run `$ appbuilder help device list-applications`<% } %> 
 <% } %>
 
 ### Options

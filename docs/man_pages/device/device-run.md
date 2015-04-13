@@ -9,8 +9,6 @@ Runs the selected application on a connected Android <% if(isMacOS) { %>or iOS <
 
 <% if(isConsole) { %>
 WARNING: You can work only with connected <% if(isMacOS) { %>iOS and <% } %>Android devices.  
-<% if(isWindows) { %>WARNING: You cannot run this command for iOS devices on Windows systems. To view the complete help for this command, run `$ appbuilder help device run`<% } %>
-<% if(isLinux) { %>WARNING: You cannot work with connected iOS devices on Linux systems. To view the complete help for this command, run `$ appbuilder help device run`<% } %>  
 <% } %>
 
 ### Options

@@ -8,7 +8,6 @@ Lists all recognized connected devices with serial number and index, grouped by 
 
 <% if(isConsole) { %>
 WARNING: You can work only with connected <% if(isWindows || isMacOS) { %>iOS and <% } %>Android devices.  
-<% if(isLinux) { %>WARNING: You cannot work with connected iOS devices on Linux systems. To view the complete help for this command, run `$ tns help device` <% } %> 
 <% } %>
 
 ### Attributes
