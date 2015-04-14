@@ -1,12 +1,13 @@
 platform
 ==========
 
-Usage:
-    `$ tns platform list`
+Usage | Synopsis
+---|---
+General | `$ tns platform list`
 
 Lists all platforms that the project currently targets. You can build and deploy your project only for these target platforms.
-<% if(isHtml) { %> 
 
+<% if(isHtml) { %> 
 #### Related Commands
 
 Command | Description

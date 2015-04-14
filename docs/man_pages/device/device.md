@@ -6,9 +6,7 @@ Usage | Synopsis
 General | `$ tns device [<Command>]`
 Lists all recognized connected devices with serial number and index, grouped by platform. 
 
-<% if(isConsole) { %>
-WARNING: You can work only with connected <% if(isWindows || isMacOS) { %>iOS and <% } %>Android devices.  
-<% } %>
+<% if(isConsole) { %>WARNING: You can work only with connected <% if(isWindows || isMacOS) { %>iOS and <% } %>Android devices. <% } %>
 
 ### Attributes
 `<Command>` extends the `device` command. You can set the following values for this attribute.

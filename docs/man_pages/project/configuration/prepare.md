@@ -4,14 +4,23 @@ prepare
 Usage | Synopsis
 ------|-------
 General | `$ tns prepare <Platform>`
-Android | `$ tns prepare android`
-iOS | `$ tns prepare ios`
 
-Copies common and relevant platform-specific content from the app directory to the subdirectory for the selected target platform
-in the platforms directory. This lets you build the project with the SDK for the selected platform.
+Copies common and relevant platform-specific content from the `app` directory to the subdirectory for the selected target platform
+in the `platforms` directory. This lets you build the project with the SDK for the selected platform.
+
+### Attributes
+
+`<Platform>` is the target mobile platform for which you want to prepare your project. You can set the following target platforms.
+
+* `android` - Prepares your project for an Android build.
+<% if(isMacOS) { %>* `ios` - Prepares your project for an iOS build.<% } %>
+
 <% if(isHtml) { %> 
+### Command Limitations
 
-#### Related Commands
+* You can run `$ tns prepare ios` only on OS X systems.
+
+### Related Commands
 
 Command | Description
 ----------|----------
